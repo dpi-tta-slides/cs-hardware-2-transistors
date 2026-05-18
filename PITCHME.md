@@ -33,6 +33,10 @@ Yesterday we learned:
 - Ohm's Law: **V = I × R**
 - Multimeters help us debug circuits
 
+---
+
+# Today
+
 Today we add a new idea: **CONTROL**
 
 A small electrical signal can control a larger one.
