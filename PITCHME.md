@@ -119,10 +119,11 @@ Key teaching point:
 
 Transistors replaced thousands of fragile glowing tubes.
 
+-->
+
+---
 
 ![bg contain](assets/eniac-tubes.webp)
-
--->
 
 ---
 
