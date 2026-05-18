@@ -300,7 +300,7 @@ Remember: **Debugging is expected**
 
 ## Transistor LED Control
 
-Goal: Build a transistor-controlled LED circuit.
+**Goal**: Build a transistor-controlled LED circuit.
 
 Try:
 
@@ -308,6 +308,8 @@ Try:
 - changing LED resistance
 - disconnecting the base
 - measuring voltage/current
+
+Start with tinkercad, then try out with physical breadboard.
 
 <!-- ![bg contain right](assets/transistor-led-breadboard.jpg) -->
 
