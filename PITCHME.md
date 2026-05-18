@@ -62,7 +62,6 @@ It can:
 - Amplify signals
 - Build logic circuits
 
-
 ![bg contain right](assets/transistor-diagram.jpeg)
 
 ---
@@ -76,10 +75,9 @@ Transistors are everywhere:
 - CPUs
 - GPUs
 - RAM
-- Phone chargers
+- Phones
 - Amplifiers
 - Sensors
-- Radios
 - and more...
 
 ![bg contain right](assets/cpu-closeup.jpeg)
