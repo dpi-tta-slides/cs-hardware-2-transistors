@@ -181,7 +181,7 @@ Think of a transistor like a faucet/valve.
 
 There are different types of transistors.
 
-Today we will use an NPN transistor.
+Today we will use an **NPN transistor**.
 
 Three pins:
 
@@ -249,7 +249,7 @@ The transistor acts like a gate.
 
 Important idea: **Small signal controls large signal**
 
-This idea powers all digital electronics.
+<!-- This idea powers all digital electronics. -->
 
 <!--
 ---
