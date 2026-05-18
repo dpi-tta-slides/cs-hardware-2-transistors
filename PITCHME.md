@@ -133,25 +133,6 @@ Transistors replaced thousands of fragile glowing tubes.
 
 ---
 
-# What Is a Transistor?
-
-<!-- Kind of like a valve / faucet -->
-
-A transistor is an electronically controlled switch.
-
-It can:
-
-- Turn current ON or OFF
-- Control larger current using smaller current
-- Amplify signals
-- Build logic circuits
-
-![bg contain right](assets/transistor-diagram.jpeg)
-
----
-
-# Real-World Examples
-
 Modern computers contain **billions** of transistors.
 
 Transistors are everywhere:
@@ -168,9 +149,24 @@ Transistors are everywhere:
 
 ---
 
+# What Is a Transistor?
+
+A transistor is an electronically controlled switch.
+
+It can:
+
+- Turn current ON or OFF
+- Control larger current using smaller current
+- Amplify signals
+- Build logic circuits
+
+![bg contain right](assets/transistor-diagram.jpeg)
+
+---
+
 # Water Analogy
 
-Think of a transistor like a valve.
+Think of a transistor like a faucet/valve.
 
 - Small movement of the valve handle
 - Controls larger water flow In electronics:
