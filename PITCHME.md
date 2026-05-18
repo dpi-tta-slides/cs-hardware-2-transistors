@@ -15,16 +15,11 @@ paginate: true
 By the end of today you will:
 
 - Understand what a transistor does
-- Use a transistor to control larger current with smaller current
-- Learn the three transistor pins:
-  - Base
-  - Collector
-  - Emitter
-- Build transistor-controlled LED circuits
-- Learn how transistors create logic gates
-- Understand how transistors are the foundation of computers
+- Learn the three transistor pins (Base, Collector, Emitter)
+- Build transistor-controlled LED circuits and logic gates
+- Understand how transistors are the foundation of computing
 
-<!-- ![bg contain right](assets/transistor-closeup.jpg) -->
+![bg contain right](assets/transistor-closeup.jpeg)
 
 ---
 
@@ -65,13 +60,16 @@ It can:
 - Turn current ON or OFF
 - Control larger current using smaller current
 - Amplify signals
-- Build logic circuits Modern computers contain **billions** of transistors.
+- Build logic circuits
 
-<!-- ![bg contain right](assets/transistor-diagram.png) -->
+
+![bg contain right](assets/transistor-diagram.jpeg)
 
 ---
 
 # Real-World Examples
+
+Modern computers contain **billions** of transistors.
 
 Transistors are everywhere:
 
@@ -79,15 +77,12 @@ Transistors are everywhere:
 - GPUs
 - RAM
 - Phone chargers
-- LED drivers
 - Amplifiers
 - Sensors
 - Radios
-- and more
+- and more...
 
-Without transistors: **computers would not exist.**
-
-<!-- ![bg contain right](assets/cpu-closeup.jpg) -->
+![bg contain right](assets/cpu-closeup.jpeg)
 
 ---
 
@@ -100,7 +95,7 @@ Think of a transistor like a valve.
   - Small current at the base
   - Controls larger current through the transistor
   
-<!-- ![bg contain right](assets/water-valve-analogy.png) -->
+![bg contain right](assets/water-valve-analogy.jpeg)
 
 ---
 
@@ -116,7 +111,7 @@ Three pins:
 
 The base controls current flow.
 
-<!-- ![bg contain right](assets/npn-transistor-labeled.png) -->
+![bg contain right](assets/water-valve-analogy.jpeg)
 
 ---
 
@@ -178,8 +173,7 @@ This idea powers all digital electronics.
 
 # Transistor Current Flow
 
-- A transistor allows current to flow from collector to Emitter
-- ONLY when enough current enters the base
+- A transistor allows current to flow from collector to Emitter ONLY when enough current enters the base
 
 <!-- ![bg contain right](assets/transistor-current-flow.png) -->
 
@@ -217,7 +211,16 @@ Try:
 
 # Troubleshooting
 
-If your circuit does NOT work: - check transistor orientation - verify pinout - check LED polarity - verify resistor placement - test power rails - test continuity Remember: ## Debugging is normal. ---
+If your circuit does NOT work:
+
+- check transistor orientation
+- verify pinout
+- check LED polarity
+- verify resistor placement
+- test power rails
+- test continuity
+
+Remember: **Debugging is expected**
 
 ---
 <!--
@@ -229,9 +232,9 @@ If your circuit does NOT work: - check transistor orientation - verify pinout - 
 - Why is amplification useful?
 - What changed compared to Day 1?
 
--->
-
 ---
+
+-->
 
 # Computers Use Binary
 
@@ -246,7 +249,7 @@ This is called **binary**
 
 Transistors can switch between ON and OFF extremely quickly.
 
-![bg contain right](assets/binary-ones-zeroes.jpg)
+<!-- ![bg contain right](assets/binary-ones-zeroes.jpg) -->
 
 ---
 
@@ -277,11 +280,17 @@ We will build:
 - OR gate
 - NAND gate
 
+<!-- 
+
 Using:
 
 - transistors
-- buttons
+- buttons / switches
 - LEDs
+- resistors
+- wire
+
+-->
 
 <!-- ![bg contain right](assets/transistor-logic-demo.jpg) -->
 
@@ -298,6 +307,8 @@ Questions:
 
 -->
 
+[Example](https://www.101computing.net/creating-logic-gates-using-transistors/)
+
 ---
 
 # Boolean Logic
@@ -309,7 +320,23 @@ Boolean logic uses TRUE/FALSE values.
 | ON | TRUE |
 | OFF | FALSE |
 
-Buttons can become logical inputs. LEDs can become logical outputs.
+<!-- 
+- Buttons/Switches are inputs
+- LEDs are logical outputs
+-->
+
+---
+
+# Buffer Gate
+
+A Buffer gate just matches the input.
+
+| Input | Output |
+| --- | --- |
+| 1 | 1 |
+| 0 | 0 |
+
+![bg contain right](assets/transistor-switch.png)
 
 ---
 
@@ -322,7 +349,7 @@ A NOT gate reverses the input.
 | 0 | 1 |
 | 1 | 0 |
 
-<!-- ![bg contain right](assets/not-gate-truth-table.png) -->
+![bg contain right](assets/transistor-NOT-Gate.png)
 
 ---
 
@@ -337,7 +364,7 @@ AND only outputs ON if BOTH inputs are ON.
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-<!-- ![bg contain right](assets/and-gate-truth-table.png) -->
+![bg contain right](assets/transistor-AND-Gate.png)
 
 ---
 
@@ -352,13 +379,15 @@ OR outputs ON if EITHER input is ON.
 | 1 | 0 | 1 |
 | 1 | 1 | 1 |
 
-<!-- ![bg contain right](assets/or-gate-truth-table.png) -->
+![bg contain right](assets/transistor-OR-Gate.png)
 
 ---
 
 # NAND Gate
 
-NAND is one of the most important gates in computing. Modern CPUs are built largely from NAND gates.
+NAND outputs ON only if both inputs are not on at the same time.
+
+<!-- NAND is one of the most important gates in computing. Modern CPUs are built largely from NAND gates. -->
 
 | A | B | Output |
 | --- | --- | --- |
@@ -367,22 +396,17 @@ NAND is one of the most important gates in computing. Modern CPUs are built larg
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-<!-- ![bg contain right](assets/nand-gate-truth-table.png) -->
+![bg contain right](assets/transistor-NAND-Gate.png)
+
 ---
 
-# From Gates To CPUs
+# Integrated Circuit (IC)
 
-Tiny logic gates combine into:
+<!-- An integrated circuit (IC) is a set of electronic circuits on one small flat piece of semiconductor material (or "chip") -->
 
-- Adders
-- Memory
-- Registers
-- Arithmetic Logic Units (ALUs)
-- CPUs
+<!-- A modern processor contains billions of tiny transistor switches. -->
 
-A modern processor contains billions of tiny transistor switches.
-
-<!-- ![bg contain right](assets/cpu-block-diagram.png) -->
+![bg contain right](assets/logic-gates-AND-chip.png)
 
 ---
 
@@ -400,7 +424,7 @@ Try:
 - OR gate
 - NAND gate
 
-Use buttons or touch sensors as inputs. Use LEDs as outputs.
+<!-- Use buttons or touch sensors as inputs. Use LEDs as outputs. -->
 
 ---
 
@@ -413,9 +437,9 @@ Use buttons or touch sensors as inputs. Use LEDs as outputs.
 - Why are NAND gates so important?
 - How do logic gates relate to CPUs?
 
--->
-
 ---
+
+-->
 
 # Key Takeaways
 
@@ -429,3 +453,6 @@ Use buttons or touch sensors as inputs. Use LEDs as outputs.
 - Modern computing depends on binary logic
 
 -->
+
+
+<!-- https://www.101computing.net/creating-logic-gates-using-transistors/ -->
