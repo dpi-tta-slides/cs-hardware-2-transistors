@@ -49,6 +49,85 @@ A small electrical signal can control a larger one.
 
 ---
 
+<!-- Bell at the opening of the long-distance line from New York to Chicago in 1892 -->
+![bg contain](assets/alexander-graham-bell-phone-call.jpg)
+
+---
+
+# Problem
+
+In the early 1900s, telephone systems had a huge challenge: *Weak signals*
+
+As voices traveled long distances through wires:
+
+- signals became weaker
+- noise increased
+- calls became unreliable
+
+
+
+<!-- 
+---
+
+# Need
+
+Telephone providers needed a way to:
+
+- amplify signals
+- switch calls electronically
+- do it reliably at massive scale 
+
+-->
+
+---
+
+Existing technology like tubes and relays were:
+
+- large
+- fragile
+- expensive
+- generated heat
+- consumed lots of power
+- failed often
+
+This limited communication systems.
+
+![bg contain right](assets/vaccuum-tube.jpeg)
+
+---
+
+![bg contain](assets/eniac.jpg)
+
+<!-- 
+
+ENIAC
+
+One of the first large electronic computers.
+
+It used:
+
+~18,000 vacuum tubes
+huge amounts of power
+massive cooling
+constant maintenance
+
+Key teaching point:
+
+Transistors replaced thousands of fragile glowing tubes.
+
+
+![bg contain](assets/eniac-tubes.webp)
+
+-->
+
+---
+
+# Transistor to the Rescue
+
+![bg contain right](assets/eniac-on-chip.jpg)
+
+---
+
 # What Is a Transistor?
 
 <!-- Kind of like a valve / faucet -->
@@ -99,6 +178,8 @@ Think of a transistor like a valve.
 
 # NPN Transistor
 
+There are different types of transistors.
+
 Today we will use an NPN transistor.
 
 Three pins:
@@ -107,10 +188,11 @@ Three pins:
 - Collector (C)
 - Emitter (E)
 
-The base controls current flow.
+<!-- The base controls current flow. -->
 
 ![bg contain right](assets/water-valve-analogy.jpeg)
 
+<!--
 ---
 
 # Transistor As A Switch
@@ -119,7 +201,9 @@ A tiny current into the base allows a larger current to flow.
 This is called: **Switching**
 Small input → large output
 
-<!-- ![bg contain right](assets/transistor-switch-diagram.png) -->
+ ![bg contain right](assets/transistor-switch-diagram.png)
+ 
+-->
 
 ---
 
@@ -134,7 +218,6 @@ Today's demo modifies yesterday's LED brightness circuit.
 ## Today
 
 - transistor helps control larger current
-- tiny current controls LED brightness
 
 <!-- ![bg contain right](assets/transistor-led-circuit.png) -->
 
@@ -167,15 +250,18 @@ Important idea: **Small signal controls large signal**
 
 This idea powers all digital electronics.
 
+<!--
 ---
 
 # Transistor Current Flow
 
 - A transistor allows current to flow from collector to Emitter ONLY when enough current enters the base
 
-<!-- ![bg contain right](assets/transistor-current-flow.png) -->
+ ![bg contain right](assets/transistor-current-flow.png)
+ 
+-->
 
----
+<!-- 
 
 # Why Is This Important?
 
@@ -187,6 +273,25 @@ Examples:
 - CPUs controlling memory
 - Sensors controlling alarms
 - Tiny signals driving speakers
+
+---
+
+-->
+
+---
+
+# Troubleshooting
+
+If your circuit does NOT work:
+
+- check transistor orientation
+- verify pinout
+- check LED polarity
+- verify resistor placement
+- test power rails
+- test continuity
+
+Remember: **Debugging is expected**
 
 ---
 
@@ -204,21 +309,6 @@ Try:
 - measuring voltage/current
 
 <!-- ![bg contain right](assets/transistor-led-breadboard.jpg) -->
-
----
-
-# Troubleshooting
-
-If your circuit does NOT work:
-
-- check transistor orientation
-- verify pinout
-- check LED polarity
-- verify resistor placement
-- test power rails
-- test continuity
-
-Remember: **Debugging is expected**
 
 ---
 <!--
