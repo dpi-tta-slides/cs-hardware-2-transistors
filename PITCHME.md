@@ -395,8 +395,6 @@ Questions:
 
 -->
 
-[Example](https://www.101computing.net/creating-logic-gates-using-transistors/)
-
 ---
 
 # Boolean Logic
@@ -425,6 +423,8 @@ A Buffer gate just matches the input.
 | 0 | 0 |
 
 ![bg contain right](assets/transistor-switch.png)
+
+[Example](https://www.101computing.net/creating-logic-gates-using-transistors/)
 
 ---
 
