@@ -166,13 +166,14 @@ It can:
 
 # Water Analogy
 
-Think of a transistor like a faucet/valve.
+- Think of a transistor like a faucet/valve.
+- Small movement of the valve handle controls larger water flow.
 
-- Small movement of the valve handle
-- Controls larger water flow In electronics:
+<!--
   - Small current at the base
   - Controls larger current through the transistor
-  
+-->
+
 ![bg contain right](assets/water-valve-analogy.jpeg)
 
 ---
