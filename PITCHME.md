@@ -6,7 +6,9 @@ paginate: true
 
 # Day 2
 
-## CS Hardware - Transistors
+## Controlling Flow
+
+![bg contain right](assets/spongebob.gif)
 
 ---
 
@@ -67,8 +69,6 @@ As voices traveled long distances through wires:
 - signals became weaker
 - noise increased
 - calls became unreliable
-
-
 
 <!-- 
 ---
@@ -280,7 +280,7 @@ Examples:
 
 ---
 
-# Troubleshooting
+# Debugging
 
 If your circuit does NOT work:
 
@@ -291,7 +291,9 @@ If your circuit does NOT work:
 - test power rails
 - test continuity
 
-Remember: **Debugging is expected**
+<!-- Remember: **Debugging is expected** -->
+
+![bg contain right](assets/debugging.gif)
 
 ---
 
@@ -332,7 +334,7 @@ Start with tinkercad, then try out with physical breadboard.
 - This is called **binary**
 - Transistors can switch between ON and OFF extremely quickly.
 
-<!-- ![bg contain right](assets/binary-ones-zeroes.jpg) -->
+![bg contain right](assets/homer.gif)
 
 ---
 
