@@ -180,9 +180,12 @@ It can:
 
 # NPN Transistor
 
-There are different types of transistors.
+<!--
 
+There are different types of transistors.
 Today we will use an **NPN transistor**.
+
+-->
 
 Three pins:
 
@@ -213,15 +216,8 @@ Small input → large output
 
 Today's demo modifies yesterday's LED brightness circuit.
 
-## Yesterday
-
-- resistor controlled current manually
-
-## Today
-
-- transistor helps control larger current
-
-<!-- ![bg contain right](assets/transistor-led-circuit.png) -->
+- **Yesterday**: resistor controlled current manually
+- **Today**: small current in transistor *base* controls larger current from transistor **collector** to **emitter**.
 
 <!--
 
@@ -249,6 +245,8 @@ The transistor acts like a gate.
 - Collector-emitter current powers the LED
 
 Important idea: **Small signal controls large signal**
+
+[Demo](https://www.101computing.net/creating-logic-gates-using-transistors/)
 
 <!-- This idea powers all digital electronics. -->
 
@@ -330,16 +328,9 @@ Start with tinkercad, then try out with physical breadboard.
 
 # Computers Use Binary
 
-Computers use only two states:
-
-| State | Meaning |
-| --- | --- |
-| 0 | OFF |
-| 1 | ON |
-
-This is called **binary**
-
-Transistors can switch between ON and OFF extremely quickly.
+- Computers use only two states, ON and OFF
+- This is called **binary**
+- Transistors can switch between ON and OFF extremely quickly.
 
 <!-- ![bg contain right](assets/binary-ones-zeroes.jpg) -->
 
@@ -347,7 +338,10 @@ Transistors can switch between ON and OFF extremely quickly.
 
 # Logic Gates
 
-Logic gates are built from transistors. They make decisions using binary signals.
+- Logic gates are built from transistors.
+- They make decisions using binary signals.
+
+<!--
 
 Examples:
 
@@ -358,15 +352,34 @@ Examples:
 
 Logic gates are the building blocks of CPUs.
 
-<!-- ![bg contain right](assets/logic-gates.png) -->
+-->
+
+![bg contain right](assets/logic-gates.jpeg)
+
+---
+
+# Boolean Logic
+
+Boolean logic uses TRUE/FALSE values.
+
+| Electrical | Boolean |
+| --- | --- |
+| ON | TRUE |
+| OFF | FALSE |
+
+<!-- 
+- Buttons/Switches are inputs
+- LEDs are logical outputs
+-->
 
 ---
 
 # Demo: Transistor Logic Gates
 
-We will build:
+We just built a "Buffer" gate
 
-- Buffer gate
+Next, we will build:
+
 - NOT gate
 - AND gate
 - OR gate
@@ -401,22 +414,6 @@ Questions:
 
 ---
 
-# Boolean Logic
-
-Boolean logic uses TRUE/FALSE values.
-
-| Electrical | Boolean |
-| --- | --- |
-| ON | TRUE |
-| OFF | FALSE |
-
-<!-- 
-- Buttons/Switches are inputs
-- LEDs are logical outputs
--->
-
----
-
 # Buffer Gate
 
 A Buffer gate just matches the input.
@@ -427,8 +424,6 @@ A Buffer gate just matches the input.
 | 0 | 0 |
 
 ![bg contain right](assets/transistor-switch.png)
-
-[Example](https://www.101computing.net/creating-logic-gates-using-transistors/)
 
 ---
 
@@ -545,6 +540,5 @@ Try:
 - Modern computing depends on binary logic
 
 -->
-
 
 <!-- https://www.101computing.net/creating-logic-gates-using-transistors/ -->
