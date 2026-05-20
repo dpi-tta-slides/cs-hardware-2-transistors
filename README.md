@@ -1,4 +1,4 @@
-# CS Hardware - Transistors
+# CS Hardware Day 2 - Flow
 
 This lesson introduces transistors and digital logic. Participants will build transistor-controlled circuits, explore how small electrical signals control larger ones, and learn how transistors form the foundation of logic gates and modern computer hardware.
 

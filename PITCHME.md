@@ -4,9 +4,9 @@ theme: default
 paginate: true
 ---
 
-# Day 2
+# CS Hardware - Day 2
 
-## Controlling Flow
+## Flow
 
 ![bg contain right](assets/spongebob.gif)
 
